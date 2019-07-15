@@ -6,10 +6,11 @@
 }
 
 .intro-details-content {
+	padding-top: 20px; 
 	text-indent: 35px;
-	font-size: 16px;
+	font-size: 18px;
 	color: #666;
-	line-height: 40px;
+	line-height: 48px;
 }
 
 /* 企业文化 */
