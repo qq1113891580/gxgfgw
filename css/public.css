@@ -1,0 +1,282 @@
+html,
+body {
+  height: 100%
+}
+
+html {
+  overflow-y: auto
+}
+
+body {
+  font: 14px arial;
+  background: #fff
+}
+
+body,
+p,
+form,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* vertical-align: top; */
+}
+
+body,
+form,
+#fm {
+  position: relative
+}
+
+td {
+  text-align: left
+}
+
+img {
+  border: 0
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:active {
+  color: #f60
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+input {
+  border: 0;
+  padding: 0
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: 1px solid transparent;
+  outline: none;
+}
+
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+/* 字体 */
+@font-face {
+  font-family: '思源黑体';
+  src: url('../fonts/syyhCN-Regular.otf');
+}
+
+/* 引用 */
+body {
+  font-family: "思源黑体";
+  min-width: 1200px;
+}
+
+/* 大小字号 */
+.f-30 {
+  font-size: 30px;
+}
+
+.f-18 {
+  font-size: 18px;
+}
+
+.f-w-6 {
+  font-weight: 600;
+}
+
+/* 导航栏链接主体框架 */
+.headline {
+  width: 1200px;
+  height: 120px;
+  line-height: 100px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 45%;
+  height: 100%;
+  font-size: 30px;
+  text-align: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logo>img {
+  width: 200px;
+  height: 45px;
+  margin-left: 20px
+}
+
+.navigation {
+  height: 100%;
+  font-size: 18px;
+  color: #333;
+  position: absolute;
+  top: 0;
+  right: 50%;
+  margin-right: -610px;
+}
+
+.navigation>ul>li {
+  margin: 0 10px !important;
+}
+
+.subject-content-img {
+  width: 100%;
+  height: 540px;
+  background: url(../img/02-1.png) no-repeat top center;
+}
+
+/* 主体内容 */
+.subject-content-area {
+  width: 100%;
+  min-height: 940px;
+  padding-top: 40px;
+  position: relative;
+}
+
+.subject-content-scope {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+/* 底部 */
+/* 联系我们 */
+.ending {
+  width: 100%;
+  height: 400px;
+  background-color: #f3f3f3;
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.ending-subhead {
+  width: 90px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.ending-way-vessel {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.ending-way-vessel1 {
+  width: 420px;
+  display: inline-block;
+}
+
+.ending-p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.ending-content {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ending-way {
+  width: 740px;
+  display: inline-block;
+}
+
+/* 结束 */
+.finish {
+  width: 100%;
+  height: 40px;
+  background-color: #f3f3f3;
+  text-align: center;
+  color: #666;
+}
+
+/* 侧边栏 */
+.public-sidebar {
+  width: 240px;
+  height: 390px;
+  background-color: #fff;
+  margin-right: 40px;
+  float: left;
+}
+
+.public-sidebar-title {
+  width: 100%;
+  height: 100px;
+  background: url(../img/02-2.png) no-repeat top center;
+  text-align: center;
+  line-height: 100px;
+}
+
+.public-sidebar-ul {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+
+.public-sidebar-ul>li {
+  background: #f3f3f3;
+  margin: 1px 0;
+  cursor: pointer;
+}
+
+/* 侧边栏选中背景颜色 */
+.sidebar-pitch-on {
+  background: #c8cbd0 !important;
+}
+
+/* 侧边栏右边内容 */
+/* 公司简介 */
+.public-subject {
+  width: 920px;
+  padding-top: 20px;
+  float: left;
+}
+
+.public-subject-title {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.public-subject-content {
+  width: 100%;
+  padding-top: 35px;
+}
+
+/* 分页器 */
+.public-paging {
+  width: 100%;
+  height: 110px;
+  margin-top: 20px;
+  line-height: 110px;
+  position: relative;
+}
+
+.public-paging nav {
+  width: 310px;
+  height: 90px;
+  position: absolute;
+  left: 50%;
+  margin-left: -155px;
+  top: 50%;
+  margin-top: -45px;
+}

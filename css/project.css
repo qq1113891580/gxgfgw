@@ -1,0 +1,64 @@
+.project-crumbs {
+    width: 1200px;
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.project-crumbs ul {
+    background-color: #fff;
+}
+
+.project-intro {
+    overflow: hidden;
+    border-bottom: 1px dashed #ccc;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.project-intro-imgDiv {
+    float: left;
+    margin-right: 40px;
+}
+
+.project-intro-wordDiv {
+    overflow: hidden;
+}
+
+.project-intro-wordDiv span {
+    line-height: 30px;
+}
+
+.name-wordDiv {
+    font-size: 16px;
+}
+
+.introText {
+    padding: 25px 0;
+    line-height: 40px;
+}
+
+.projectFuncDiv {
+    margin: 25px 0;
+    overflow: hidden;
+}
+
+.intro-FuncDiv {
+    width: 60%;
+    color: gray;
+    margin: 65px 0;
+}
+
+.l-c-f-wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.project-content-scope {
+    height: 100%;
+    position: relative;
+}
+
+.li-active {
+    background: rgb(200, 203, 208);
+}
